@@ -41,7 +41,7 @@ function App() {
         setData([...data, myObj]);
       });
     });
-  }, [todos]);
+  }, [todos, data]);
 
   return (
     <>
